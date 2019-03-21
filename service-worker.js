@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/poetry-simulator/precache-manifest.29113e0bd79200d294f08c117e6c35c2.js"
+  "/poetry-simulator/precache-manifest.4935ae735f62a1e9192c5bd6be2b7ea0.js"
 );
 
 workbox.clientsClaim();
