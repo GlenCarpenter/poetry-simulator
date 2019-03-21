@@ -2,11 +2,6 @@ import React from 'react';
 import '../css/Input.css';
 
 class Input extends React.Component {
-
-    constructor(props) {
-        super(props);
-      }
-
     state = {
         value: '',
         placeholder: 'Enter a word'

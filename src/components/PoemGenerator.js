@@ -103,6 +103,11 @@ class PoemGenerator extends React.Component {
             this.setState({ poemPlaceholder: 'Please enter only a single word!  Our poem fairies can only handle so much.' });
          } else {
             this.setState({ poemPlaceholder: 'Processing your poem...' });
+            setTimeout(() => {
+                if(!this.conditionsToRenderPoem()) {
+                    this.setState({ poemPlaceholder: `Sorry!  Our poem fairies were unable to retrieve a poem for that word.  Please try another.` });
+                }
+            }, 5500)
          }
     }
 
