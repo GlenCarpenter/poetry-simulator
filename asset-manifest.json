@@ -1,13 +1,13 @@
 {
   "main.css": "/poetry-simulator/static/css/main.222dc012.chunk.css",
-  "main.js": "/poetry-simulator/static/js/main.e3ecd75a.chunk.js",
-  "main.js.map": "/poetry-simulator/static/js/main.e3ecd75a.chunk.js.map",
+  "main.js": "/poetry-simulator/static/js/main.62fbe497.chunk.js",
+  "main.js.map": "/poetry-simulator/static/js/main.62fbe497.chunk.js.map",
   "runtime~main.js": "/poetry-simulator/static/js/runtime~main.7b3d5327.js",
   "runtime~main.js.map": "/poetry-simulator/static/js/runtime~main.7b3d5327.js.map",
   "static/js/2.9ec8c501.chunk.js": "/poetry-simulator/static/js/2.9ec8c501.chunk.js",
   "static/js/2.9ec8c501.chunk.js.map": "/poetry-simulator/static/js/2.9ec8c501.chunk.js.map",
   "index.html": "/poetry-simulator/index.html",
-  "precache-manifest.4935ae735f62a1e9192c5bd6be2b7ea0.js": "/poetry-simulator/precache-manifest.4935ae735f62a1e9192c5bd6be2b7ea0.js",
+  "precache-manifest.db90a0b8ed689bc79bc419049f4acd0e.js": "/poetry-simulator/precache-manifest.db90a0b8ed689bc79bc419049f4acd0e.js",
   "service-worker.js": "/poetry-simulator/service-worker.js",
   "static/css/main.222dc012.chunk.css.map": "/poetry-simulator/static/css/main.222dc012.chunk.css.map"
 }
