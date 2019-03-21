@@ -80,7 +80,6 @@ class PoemGenerator extends React.Component {
     // Update state when input form is submitted or button is clicked
     onFormSubmission = term => {
         if(term) {
-            this.processPoemPlaceholder();
             this.setState({
                 poemSeed: term,
                 rhymeArray: [],
@@ -89,6 +88,7 @@ class PoemGenerator extends React.Component {
                 triggerArray: [],
                 followArray: []
             });
+            this.processPoemPlaceholder(term);
             this.getWordsThatRhyme(term);
             this.getSimilarWords(term);
             this.getWordsThatDescribe(term);
@@ -98,8 +98,12 @@ class PoemGenerator extends React.Component {
     }
 
     // Placeholder while poem is processing
-    processPoemPlaceholder = () => {
-        this.setState({ poemPlaceholder: 'Processing your poem...' });
+    processPoemPlaceholder = term => {
+        if(term.split(' ').length > 1) {
+            this.setState({ poemPlaceholder: 'Please enter only a single word!  Our poem fairies can only handle so much.' });
+         } else {
+            this.setState({ poemPlaceholder: 'Processing your poem...' });
+         }
     }
 
     // Helper methods for populating poem with random words
