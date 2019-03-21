@@ -39,7 +39,7 @@ class Input extends React.Component {
                     onChange={e => this.setState({ value: e.target.value })}/>
                 </form>
                 <div className="buttons">
-                    <button className="btn-hover color-button" onClick={()=> this.props.onClickOrSubmit(this.state.value)}>Generate a poem</button>
+                    <button className="btn-hover color-button" onClick={()=> this.props.onClickOrSubmit(this.state.value)}>Simulate a poem</button>
                 </div>
             </div>
         );
