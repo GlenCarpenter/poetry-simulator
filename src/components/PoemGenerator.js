@@ -27,7 +27,6 @@ class PoemGenerator extends React.Component {
         this.setState({ 
             rhymeArray: response.data.filter(el => el.word !== ".")
         });
-        console.log(this.state.rhymeArray[0]);
     };
 
     getSimilarWords = async term => {
