@@ -1,0 +1,70 @@
+.poemGenerator {
+}
+
+.poemContainer {
+    margin-top: 35px;
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em; 
+    margin: 10px;
+}
+
+.leftIndent {
+    margin-left: 24px;
+}
+
+.lineSpace {
+    height: 24px;
+}
+
+.leftStanza {
+    margin-left: 20%;
+}
+
+.rightStanza {
+    margin-left: 30%;
+}
+
+.poemTitle > h3 {
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+}
+
+.poemTitle > p {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+}
+
+.poemPlaceholder {
+    width: 320px;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    border-radius: 15px 10px;
+	outline: none;
+}
+
+@media(max-width: 550px) {
+    .poemContainer {
+        width: 95%;
+    }
+    p {
+        font-size: 1.5em; 
+    }
+    .leftStanza {
+        margin-left: 5%;
+    }
+    
+    .rightStanza {
+        margin-left: 10%;
+    }
+}

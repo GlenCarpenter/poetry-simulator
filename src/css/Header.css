@@ -1,0 +1,24 @@
+.headerContent {
+    display: flex;
+}
+
+.headerText {
+    margin: 0 auto;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgba(255,255,255,.25) 1%, rgba(255,255,255,.85) 50%, rgba(255,255,255,.25) 99%);
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 9em;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #5f5f5f;
+    animation: colorShift 10000ms infinite;
+}
+
+@media(max-width: 800px) {
+    .headerText {
+        font-size: 5em;
+    }
+}
