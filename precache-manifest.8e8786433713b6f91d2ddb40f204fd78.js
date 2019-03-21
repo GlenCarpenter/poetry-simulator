@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/poetry-simulator/static/css/main.33c7407b.chunk.css"
   },
   {
-    "revision": "1f24d136c188880f8634d15afad8786e",
+    "revision": "a48b58d4666fd82de3c01095e1a45523",
     "url": "/poetry-simulator/index.html"
   }
 ];
